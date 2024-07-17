@@ -6,11 +6,11 @@ function checkPropertyInObject(str, obj){
 
 let cat = {
     breed: 'meikun',
-}
+};
 
-let kitty = Object.create(cat)
-kitty.name = 'Bob'
-kitty.age = 7
+let kitty = Object.create(cat);
+kitty.name = 'Bob';
+kitty.age = 7;
 
 
-console.log(checkPropertyInObject('breed', kitty))
+console.log(checkPropertyInObject('breed', kitty));
