@@ -5,10 +5,12 @@ function checkPropertyInObject(str, obj){
 
 
 let cat = {
-    age: 7,
-    mood: 'angry',
     breed: 'meikun',
 }
 
+let kitty = Object.create(cat)
+kitty.name = 'Bob'
+kitty.age = 7
 
-console.log(checkPropertyInObject('name', cat))
+
+console.log(checkPropertyInObject('breed', kitty))
