@@ -72,7 +72,7 @@ laptopObj.getPower()
 
 // пример использования с Настольной лампой
 console.log('\n\n')
-let tableLampObj = new TableLamp(voltage=25, currentStrength=0.45, type='декоративная настольная лампа')
+let tableLampObj = new TableLamp(25, 0.45, 'декоративная настольная лампа')
 console.log(tableLampObj.isActive);
 console.log('-'.repeat(30));
 tableLampObj.turnOn();
